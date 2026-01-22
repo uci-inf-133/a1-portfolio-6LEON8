@@ -1,24 +1,58 @@
 <!doctype html>
 <html lang="en">
 
-<!--
-WRITTEN BY: Your name here
-EMAIL: Your email here
--->
-
 <head>
   <meta charset="utf-8">
-  <meta name="author" content="Your name here">
-  <meta name="description" content="description of your page">
-   <!-- you would link to an external stylesheet here! -->
-   <!-- you would also link to Bootstrap here! -->
-  <title>title here</title>
+  <meta name="author" content="Brandon Leon">
+  <meta name="description" content="My portfolio">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+  <link rel="stylesheet" href="mystyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
+
 <body>
-  <p>
-    <a href="http://validator.w3.org/check?uri=referer">
-       W3C validator
-    </a>
-  </p>
-</body>
+  <header class="header">
+    <h1>Brandon Leon</h1>
+    <nav>
+      <a href="#about">About</a>
+      <div class="dropdown">
+        <button class="dropbtn">Projects <i class="fa fa-caret-down"></i></button>
+        <div class="dropdown-content">
+          <a href="projects.html#project-1">Sparra</a>
+          <a href="zotdb.html">ZotDB</a>
+        </div>
+      </div>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <div class="about-content">
+        <div>
+          <h2>About Me</h2>
+          <p> Hey there! 👋 I'm Brandon, a Computer Science student with a passion for systems, embedded systems, and
+            software design. When I'm not coding, you can find me exploring the great outdoors, whether that's hiking
+            through trails or trying to conquer a
+            new mountain bike route . I'm also a big fan of mixed martial arts and love to stay active by training in
+            various disciplines. I'm always looking to learn more,
+            collaborate on cool projects, and push myself to be the best version of myself. Take a look around, and
+            let's connect! 😄
+          </p>
+          <div class="button-container">
+            <a href="https://drive.google.com/file/d/1unqBacn0pGTRQ6BX1_J9LymWibT2p7vH/view?usp=sharing"
+              class="resume-link"><i class="fa fa-file"></i> Resume</a>
+            <a href="https://www.instagram.com/bl.0.6/" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <img src="IMG_5928.jpg" alt="Picture of Brandon Leon" width="150" height="150">
+      </div>
+    </section>
+  </main>
+
+
 </html>
