@@ -64,5 +64,5 @@ https://www.w3.org/wiki/Creating_multiple_pages_with_navigation_menus
 
 
 7. Is there anything special we need to know in order to run your code?
-  Nope
+  Just need to run index.html
 
